@@ -12,3 +12,9 @@ h1{
     margin-top: 45vh;
     font-size: 5rem;
 }
+
+h2{
+    text-align: center;
+    transition: 1s;
+    font-size: 3.5rem;
+}
