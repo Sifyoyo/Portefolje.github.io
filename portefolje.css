@@ -10,10 +10,18 @@ h1{
     text-align: center;
     transition: 1s;
     margin-top: 45vh;
+    margin-bottom: 1vh;
     font-size: 5rem;
 }
 
+.line{
+    margin: 0 auto;
+    width: 20vw;
+    border-bottom: 0.1vh solid;
+}
+
 h2{
+    margin-top: 0px;
     text-align: center;
     transition: 1s;
     font-size: 3.5rem;
