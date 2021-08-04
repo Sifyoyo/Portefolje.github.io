@@ -5,5 +5,5 @@ body{
 h1{
     text-align: center;
     transition: 0.2s;
-    top: 50vh;
+    margin-top: 50vh;
 }
