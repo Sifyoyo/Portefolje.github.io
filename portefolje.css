@@ -1,9 +1,14 @@
+*{
+    scroll-behavior: smooth;
+}
+
 body{
     height: 3000px;
 }
 
 h1{
     text-align: center;
-    transition: 0.2s;
-    margin-top: 50vh;
+    transition: 1s;
+    margin-top: 45vh;
+    font-size: 5rem;
 }
