@@ -8,21 +8,23 @@ body{
 
 h1{
     text-align: center;
-    transition: 1s;
+    transition: 0.5s;
     margin-top: 45vh;
     margin-bottom: 1vh;
     font-size: 5rem;
+
 }
 
-.line{
+#line{
     margin: 0 auto;
     width: 20vw;
     border-bottom: 0.1vh solid;
+    transition: 0.5s;
 }
 
 h2{
     margin-top: 0px;
     text-align: center;
-    transition: 1s;
+    transition: 0.5s;
     font-size: 3.5rem;
 }
