@@ -81,6 +81,10 @@ h1{
 #vedlag_2{
     opacity: 0;
     transition: 0.5s;
+    width: 70vw;
+    height: 70vh;
+    display: block;
+    margin: 0 auto;
 }
 
 video{
