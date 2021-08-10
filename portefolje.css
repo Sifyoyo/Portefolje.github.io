@@ -3,7 +3,7 @@
 }
 
 body{
-    height: 3000px;
+    height: 4300px;
     transition: 1s;
 }
 
@@ -92,4 +92,99 @@ video{
     height: 70vh;
     display: block;
     margin: 0 auto;
+}
+
+#overskrift_5{
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 0px;
+    transition: 0.5s;
+    font-size: 3.5rem;
+    opacity: 0;
+
+}
+
+#overskrift_5_msc{
+    text-align: center;
+    transition: 0.5s;
+    font-size: 2rem;
+    opacity: 0;
+}
+
+#avisannonse_aside{
+    width: 13em;
+    height: 40em;
+    transition: 0.5s;
+}
+
+#avisannonse_section{
+    width: 50em;
+    height: 25em;
+    margin-left: 1em;
+    transition: 0.5s;
+}
+
+#img_container{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+#img_container > #avisannonse_aside:hover{
+    height: 80em;
+    width: 26em;
+}
+
+#img_container > #avisannonse_section:hover{
+    height: 50em;
+    width: 100em;
+}
+
+#overskrift_6{
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 0px;
+    transition: 0.5s;
+    font-size: 3.5rem;
+    opacity: 0;
+
+}
+
+#overskrift_6_msc{
+    text-align: center;
+    transition: 0.5s;
+    font-size: 2rem;
+    opacity: 0;
+}
+
+#img_container_2{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+#prosjekt_plakat, #prosjekt_plakat_original{
+    width: 44em;
+    height: 30em;
+    margin: 0.5em;
+    transition: 0.5s;
+}
+
+#img_container_2 > div > #prosjekt_plakat:hover{
+    height: 37.8em;
+    width: 55.44em;
+}
+
+#img_container_2 > div > #prosjekt_plakat_original:hover{
+    height: 37.8em;
+    width: 55.44em;
+}
+
+p{
+    text-align: center;
+    font-size: 2em;
 }

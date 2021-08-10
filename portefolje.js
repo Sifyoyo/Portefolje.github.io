@@ -3,7 +3,8 @@ window.onload = oppstart;
 
 
 function oppstart(){
-//   window.scrollTo(0,500);
+    window.scrollTo(0,0);
+
 
 
    document.addEventListener('scroll', function(e) {
@@ -46,7 +47,7 @@ function oppstart(){
    }
 
     //overskrift 3
-    if(percent >= 20){
+    if(percent >= 15){
         document.getElementById("overskrift_3").style.opacity = "1";
    
    }
@@ -55,7 +56,7 @@ function oppstart(){
    }
 
     //overskrift 3_msc
-    if(percent >= 20){
+    if(percent >= 15){
         document.getElementById("overskrift_3_msc").style.opacity = "1";
    
    }
@@ -64,7 +65,7 @@ function oppstart(){
    }
 
     //bakgrunn
-    if(percent >= 20){
+    if(percent >= 15){
     document.getElementById("container").style.backgroundColor = "black";
     }
     
@@ -73,7 +74,7 @@ function oppstart(){
     }
 
     //vedlag 1
-    if(percent >= 20){
+    if(percent >= 15){
         document.getElementById("vedlag_1").style.opacity = "1";
    
    }
@@ -82,7 +83,7 @@ function oppstart(){
    }
 
    //overskrift 4
-   if(percent >= 40){
+   if(percent >= 25){
     document.getElementById("overskrift_4").style.opacity = "1";
 
     }
@@ -91,7 +92,7 @@ function oppstart(){
     }
 
     //overskrift 4_msc
-    if(percent >= 40){
+    if(percent >= 25){
         document.getElementById("overskrift_4_msc").style.opacity = "1";
 
     }
@@ -100,7 +101,7 @@ function oppstart(){
     }
 
     //vedlag 2
-    if(percent >= 40){
+    if(percent >= 25){
         document.getElementById("vedlag_2").style.opacity = "1";
    
    }
@@ -109,29 +110,75 @@ function oppstart(){
    }
 
    //overskrift 4 --- fade ut
-   if(percent >= 80){
+   if(percent >= 70){
     document.getElementById("overskrift_4").style.opacity = "0";
 
     }
 
 
     //overskrift 4_msc --- fade ut
-    if(percent >= 80){
+    if(percent >= 70){
         document.getElementById("overskrift_4_msc").style.opacity = "0";
 
     }
 
 
     //vedlag 2 --- fade ut
-    if(percent >= 80){
+    if(percent >= 60){
         document.getElementById("vedlag_2").style.opacity = "0";
    
    }
 
    //bakgrunn --- fade ut til hvit
-   if(percent >= 80){
+   if(percent >= 60){
     document.getElementById("container").style.backgroundColor = "white";
     }
+
+       //overskrift 5 
+   if(percent >= 60){
+    document.getElementById("overskrift_5").style.opacity = "1";
+
+    }
+
+
+    //overskrift 5_msc 
+    if(percent >= 60){
+        document.getElementById("overskrift_5_msc").style.opacity = "1";
+
+    }
+
+    //overskrift 6
+   if(percent >= 60){
+    document.getElementById("overskrift_6").style.opacity = "1";
+
+    }
+
+
+    //overskrift 6_msc 
+    if(percent >= 60){
+        document.getElementById("overskrift_6_msc").style.opacity = "1";
+
+    }
+
+    //Bilde container 1
+   if(percent >= 60){
+    document.getElementById("img_container").style.opacity = "1";
+
+    }
+    else{
+        document.getElementById("img_container").style.opacity = "0";
+   }
+
+
+    //Bilde container 2
+    if(percent >= 60){
+        document.getElementById("img_container_2").style.opacity = "1";
+
+    }    
+    else{
+        document.getElementById("img_container_2").style.opacity = "0";
+   }
+    
     
 
     })
