@@ -291,14 +291,14 @@ p{
 
 @media (max-width: 480px){
     #avisannonse_aside{
-        width: 6.06528em;
-        height: 18.6624em;
+        width: 9.477em;
+        height: 29.16em;
         transition: 0.5s;
     }
     
     #avisannonse_section{
-        width: 23.328em;
-        height: 11.664em;
+        width: 29.16em;
+        height: 14.58em;
         margin-left: 1em;
         transition: 0.5s;
     }
