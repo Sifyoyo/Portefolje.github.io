@@ -133,13 +133,13 @@ video{
 }
 
 #img_container > #avisannonse_aside:hover{
-    height: 80em;
-    width: 26em;
+    height: 64em;
+    width: 20.8em;
 }
 
 #img_container > #avisannonse_section:hover{
-    height: 50em;
-    width: 100em;
+    height: 34.2em;
+    width: 68.4em;
 }
 
 #overskrift_6{
@@ -187,4 +187,137 @@ video{
 p{
     text-align: center;
     font-size: 2em;
+}
+
+
+@media (max-width: 1366px){
+    #avisannonse_aside{
+        width: 11.7em;
+        height: 36em;
+        transition: 0.5s;
+    }
+    
+    #avisannonse_section{
+        width: 45em;
+        height: 22.5em;
+        margin-left: 1em;
+        transition: 0.5s;
+    }
+    
+    #img_container{
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    
+    #img_container > #avisannonse_aside:hover{
+        height: 40em;
+        width: 13em;
+    }
+    
+    #img_container > #avisannonse_section:hover{
+        height: 25em;
+        width: 50em;
+    }
+}
+
+@media (max-width: 1024px){
+    #avisannonse_aside{
+        width: 9.477em;
+        height: 29.16em;
+        transition: 0.5s;
+    }
+    
+    #avisannonse_section{
+        width: 36.45em;
+        height: 18.225em;
+        margin-left: 1em;
+        transition: 0.5s;
+    }
+    
+    #img_container{
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    
+    #img_container > #avisannonse_aside:hover{
+        height: 37.422em;
+        width: 12.16215em;
+    }
+    
+    #img_container > #avisannonse_section:hover{
+        height: 23.38875em;
+        width: 46.7775em;
+    }
+}
+
+@media (max-width: 960px){
+    #avisannonse_aside{
+        width: 6.06528em;
+        height: 18.6624em;
+        transition: 0.5s;
+    }
+    
+    #avisannonse_section{
+        width: 23.328em;
+        height: 11.664em;
+        margin-left: 1em;
+        transition: 0.5s;
+    }
+    
+    #img_container{
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    
+    #img_container > #avisannonse_aside:hover{
+        width: 7.5816em;
+        height: 23.328em;
+    }
+    
+    #img_container > #avisannonse_section:hover{
+        width: 29.16em;
+        height: 14.58em;
+    }
+}
+
+@media (max-width: 480px){
+    #avisannonse_aside{
+        width: 6.06528em;
+        height: 18.6624em;
+        transition: 0.5s;
+    }
+    
+    #avisannonse_section{
+        width: 23.328em;
+        height: 11.664em;
+        margin-left: 1em;
+        transition: 0.5s;
+    }
+    
+    #img_container{
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    
+    #img_container > #avisannonse_aside:hover{
+        height: 37.422em;
+        width: 12.16215em;
+    }
+    
+    #img_container > #avisannonse_section:hover{
+        height: 23.38875em;
+        width: 46.7775em;
+    }
 }
