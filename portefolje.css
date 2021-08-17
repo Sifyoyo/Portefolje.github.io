@@ -321,3 +321,69 @@ p{
         width: 46.7775em;
     }
 }
+
+@media (max-width: 1366px){
+    #prosjekt_plakat, #prosjekt_plakat_original{
+        height: 19.2em;
+        width: 28.16em;
+    }
+    
+    #img_container_2 > div > #prosjekt_plakat:hover{
+        height: 21.168em;
+        width:  31.0464em;
+    }
+    
+    #img_container_2 > div > #prosjekt_plakat_original:hover{
+        height: 21.168em;
+        width:  31.0464em;
+    }
+    
+    p{
+        text-align: center;
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 1024px){
+    #prosjekt_plakat, #prosjekt_plakat_original{
+        height: 16.8em;
+        width: 24.64em;
+    }
+    
+    #img_container_2 > div > #prosjekt_plakat:hover{
+        height: 20.328em;
+        width:  29.8144em;
+    }
+    
+    #img_container_2 > div > #prosjekt_plakat_original:hover{
+        height: 20.328em;
+        width:  29.8144em;
+    }
+    
+    p{
+        text-align: center;
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 960px){
+    #prosjekt_plakat, #prosjekt_plakat_original{
+        height: 11.76em;
+        width: 17.248em;
+    }
+    
+    #img_container_2 > div > #prosjekt_plakat:hover{
+        height: 14.2296em;
+        width:  20.87008em;
+    }
+    
+    #img_container_2 > div > #prosjekt_plakat_original:hover{
+        height: 14.2296em;
+        width:  20.87008em;
+    }
+    
+    p{
+        text-align: center;
+        font-size: 2em;
+    }
+}
