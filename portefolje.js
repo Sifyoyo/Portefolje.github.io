@@ -5,7 +5,7 @@ window.onload = oppstart;
 function oppstart(){
     window.scrollTo(0,0);
 
-
+    var tablet_size = window.matchMedia("(max-width: 1024px)")
 
    document.addEventListener('scroll', function(e) {
    var hoyde = document.getElementById("container");
@@ -122,7 +122,73 @@ function oppstart(){
 
     }
 
+//--------------------------------------------------------------- etter video
 
+       /* Tablet size */
+       if(tablet_size.matches){
+
+    
+         //vedlag 2 --- fade ut
+    if(percent >= 50){
+        document.getElementById("vedlag_2").style.opacity = "0";
+   
+   }
+
+   //bakgrunn --- fade ut til hvit
+   if(percent >= 50){
+    document.getElementById("container").style.backgroundColor = "white";
+    }
+
+       //overskrift 5 
+   if(percent >= 50){
+    document.getElementById("overskrift_5").style.opacity = "1";
+
+    }
+
+
+    //overskrift 5_msc 
+    if(percent >= 50){
+        document.getElementById("overskrift_5_msc").style.opacity = "1";
+
+    }
+
+    //overskrift 6
+   if(percent >= 50){
+    document.getElementById("overskrift_6").style.opacity = "1";
+
+    }
+
+
+    //overskrift 6_msc 
+    if(percent >= 50){
+        document.getElementById("overskrift_6_msc").style.opacity = "1";
+
+    }
+
+    //Bilde container 1
+   if(percent >= 50){
+    document.getElementById("img_container").style.opacity = "1";
+
+    }
+    else{
+        document.getElementById("img_container").style.opacity = "0";
+   }
+
+
+    //Bilde container 2
+    if(percent >= 50){
+        document.getElementById("img_container_2").style.opacity = "1";
+
+    }    
+    else{
+        document.getElementById("img_container_2").style.opacity = "0";
+   }
+
+       }
+
+       /* ------------------------------*/
+       else{
+           
     //vedlag 2 --- fade ut
     if(percent >= 60){
         document.getElementById("vedlag_2").style.opacity = "0";
@@ -179,7 +245,9 @@ function oppstart(){
         document.getElementById("img_container_2").style.opacity = "0";
    }
     
-    
+       }
+
+
 
     })
 

@@ -364,6 +364,15 @@ p{
         text-align: center;
         font-size: 2em;
     }
+
+    /*Video størrelse*/
+    #vedlag_1 , #vedlag_2{
+        width: 70vw;
+        height: 45vh;
+        display: block;
+        margin: 0 auto;
+    }
+
 }
 
 @media (max-width: 960px){
